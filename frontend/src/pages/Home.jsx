@@ -5,7 +5,8 @@ import ProgramCard from '../components/ProgramCard';
 import EventCard from '../components/EventCard';
 import DonationCard from '../components/DonationCard';
 import CTABanner from '../components/CTABanner';
-import { activities, events, donationHeads } from '../data/dummyData';
+import AnnouncementBanner from '../components/AnnouncementBanner';
+import { activities, events, donationHeads, announcements } from '../data/dummyData';
 
 const Home = () => {
   const featuredActivities = activities.slice(0, 6);
@@ -13,6 +14,7 @@ const Home = () => {
 
   return (
     <>
+      <AnnouncementBanner announcements={announcements} />
       <HeroSection
         title="Welcome to Gurudev Ashram"
         subtitle="A sanctuary of peace, devotion, and selfless service"

@@ -1,13 +1,14 @@
-import HeroSection from '../components/HeroSection';
 import SectionHeading from '../components/SectionHeading';
 
 const Gurudev = () => {
   return (
     <>
-      <HeroSection
-        title="Gurudev"
-        subtitle="A beacon of wisdom, love, and spiritual guidance"
-      />
+      <section className="py-16 px-4 bg-amber-50">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-amber-900 mb-4">Gurudev</h1>
+          <p className="text-xl text-gray-700">A beacon of wisdom, love, and spiritual guidance</p>
+        </div>
+      </section>
 
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">

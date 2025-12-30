@@ -223,7 +223,7 @@ export const products = [
     id: 2,
     name: "Rudraksha Mala",
     price: 599,
-    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600",
+    image: "",
     category: "accessories",
     description: "Authentic Rudraksha mala for meditation and prayer",
     stock: 30

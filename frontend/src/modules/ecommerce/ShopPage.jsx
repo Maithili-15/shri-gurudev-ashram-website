@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import HeroSection from '../../components/HeroSection';
 import SectionHeading from '../../components/SectionHeading';
 import ProductCard from '../../components/ProductCard';
 import { products, productCategories } from '../../data/dummyData';
@@ -13,10 +12,12 @@ const ShopPage = () => {
 
   return (
     <>
-      <HeroSection
-        title="Our Shop"
-        subtitle="Spiritual books, accessories, and puja items"
-      />
+      <section className="py-16 px-4 bg-amber-50">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-amber-900 mb-4">Our Shop</h1>
+          <p className="text-xl text-gray-700">Spiritual books, accessories, and puja items</p>
+        </div>
+      </section>
 
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
