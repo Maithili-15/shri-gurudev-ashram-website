@@ -181,10 +181,8 @@ const Contact = () => {
                       <div>
                         <p className="font-semibold text-gray-900">Address</p>
                         <p className="text-gray-700">
-                          Gurudev Ashram<br />
-                          Ashram Road, City Name<br />
-                          State - 123456<br />
-                          India
+                          श्री गुरुदेव आश्रम, पलसखेड सपकाल, तहसील चिखली, जिला बुलडाणा, महाराष्ट्र - 443001<br />
+                          स्वामी हरिचैतन्य शान्ति आश्रम ट्रस्ट, दाताला, तहसील मलकापूर, जिला बुलडाणा - 443102
                         </p>
                       </div>
                     </div>
@@ -192,16 +190,16 @@ const Contact = () => {
                       <span className="text-2xl">📞</span>
                       <div>
                         <p className="font-semibold text-gray-900">Phone</p>
-                        <p className="text-gray-700">+91 98765 43210</p>
-                        <p className="text-gray-700">+91 98765 43211</p>
+                        <p className="text-gray-700">9158740007</p>
+                        <p className="text-gray-700">9834151577</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
                       <span className="text-2xl">📧</span>
                       <div>
                         <p className="font-semibold text-gray-900">Email</p>
-                        <p className="text-gray-700">info@gurudevashram.org</p>
-                        <p className="text-gray-700">contact@gurudevashram.org</p>
+                        <p className="text-gray-700"><a href="mailto:info@shrigurudevashram.org" className="text-amber-600 hover:underline">info@shrigurudevashram.org</a></p>
+                        <p className="text-gray-700"><a href="mailto:info@shantiashramtrust.org" className="text-amber-600 hover:underline">info@shantiashramtrust.org</a></p>
                       </div>
                     </div>
                   </div>
@@ -212,7 +210,7 @@ const Contact = () => {
                   <h3 className="text-xl font-bold text-amber-900 mb-4">Find Us</h3>
                   <div className="w-full h-64 rounded-lg overflow-hidden">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5956153554495!2d72.8776559!3d19.0759837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA0JzMzLjUiTiA3MsKwNTInMzkuNiJF!5e0!3m2!1sen!2sin!4v1234567890"
+                      src="https://www.google.com/maps?q=Shri+Gurudev+Ashram+Palaskhed+Sapkal+Chikhli+Buldhana+Maharashtra+443001&output=embed"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
@@ -223,8 +221,12 @@ const Contact = () => {
                     ></iframe>
                   </div>
                   <p className="text-sm text-gray-600 mt-2">
-                    {/* TODO: Replace with actual Google Maps embed URL */}
-                    Note: Replace the iframe src with your actual Google Maps embed URL
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=Shri+Gurudev+Ashram+Palaskhed+Sapkal+Chikhli+Buldhana+Maharashtra+443001"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-amber-600 hover:underline"
+                    >Open in Google Maps</a>
                   </p>
                 </div>
               </div>

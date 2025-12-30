@@ -66,9 +66,11 @@ const Navbar = ({ showAnnouncement = false, announcements = [] }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="flex justify-between items-center h-10 py-2">
             {/* Social Media Icons */}
-            <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2">
               <a
-                href="#"
+                href="https://www.facebook.com/SwamiHarichaitanyanandS/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-8 h-8 flex items-center justify-center border-2 border-amber-400 rounded-md text-amber-500 hover:bg-amber-400 hover:text-white transition-all duration-300 group"
                 aria-label="Facebook"
               >
@@ -77,7 +79,9 @@ const Navbar = ({ showAnnouncement = false, announcements = [] }) => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/@shrigurudevashram"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-8 h-8 flex items-center justify-center border-2 border-amber-400 rounded-md text-amber-500 hover:bg-amber-400 hover:text-white transition-all duration-300 group"
                 aria-label="YouTube"
               >
@@ -86,7 +90,9 @@ const Navbar = ({ showAnnouncement = false, announcements = [] }) => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/swami_harichaitanyaji_/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-8 h-8 flex items-center justify-center border-2 border-amber-400 rounded-md text-amber-500 hover:bg-amber-400 hover:text-white transition-all duration-300 group"
                 aria-label="Instagram"
               >
@@ -95,7 +101,9 @@ const Navbar = ({ showAnnouncement = false, announcements = [] }) => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://x.com/Harichaitanyaji"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-8 h-8 flex items-center justify-center border-2 border-amber-400 rounded-md text-amber-500 hover:bg-amber-400 hover:text-white transition-all duration-300 group"
                 aria-label="Twitter/X"
               >
@@ -141,7 +149,7 @@ const Navbar = ({ showAnnouncement = false, announcements = [] }) => {
           </div>
 
           {/* Heading - Absolutely Centered */}
-          <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+          <div className="hidden md:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
             <h1 className="text-sm md:text-base text-gray-700 font-medium whitespace-nowrap" style={{ fontFamily: 'sans-serif' }}>
               श्री गुरुदेव आश्रम, पळसखेड (सपकाळ)
             </h1>
