@@ -30,7 +30,7 @@ const Step5Success = ({ data, resetFlow }) => {
           </svg>
         </div>
         <h2 className="text-3xl font-bold text-amber-900 mb-2">
-          Donation Successful! 🙏
+          Donation Successful!
         </h2>
         <p className="text-gray-600">
           Thank you for your generous contribution
@@ -71,7 +71,7 @@ const Step5Success = ({ data, resetFlow }) => {
 
       <div className="space-y-3 mb-6">
         <PrimaryButton onClick={handleDownloadReceipt} className="w-full">
-          📥 Download Receipt
+          Download Receipt
         </PrimaryButton>
         <div className="grid grid-cols-2 gap-3">
           <PrimaryButton
@@ -79,7 +79,7 @@ const Step5Success = ({ data, resetFlow }) => {
             variant="secondary"
             className="w-full"
           >
-            📧 Email Receipt
+            Email Receipt
           </PrimaryButton>
           {data.whatsapp && (
             <PrimaryButton
@@ -87,7 +87,7 @@ const Step5Success = ({ data, resetFlow }) => {
               variant="secondary"
               className="w-full"
             >
-              💬 WhatsApp Receipt
+              WhatsApp Receipt
             </PrimaryButton>
           )}
         </div>
@@ -107,7 +107,7 @@ const Step5Success = ({ data, resetFlow }) => {
       <p className="text-sm text-gray-600 mt-6">
         Your donation receipt has been sent to your email and mobile number.
         <br />
-        May you be blessed with peace, prosperity, and spiritual growth! 🙏
+        May you be blessed with peace, prosperity, and spiritual growth!
       </p>
     </div>
   );

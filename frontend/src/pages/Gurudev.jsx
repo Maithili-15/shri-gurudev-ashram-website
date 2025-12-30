@@ -16,7 +16,6 @@ const Gurudev = () => {
           <div className="prose prose-lg max-w-none">
             <div className="flex justify-center mb-8">
               <div className="w-64 h-64 rounded-full bg-amber-200 flex items-center justify-center text-6xl">
-                🕉️
               </div>
             </div>
             <p className="text-gray-700 mb-4">

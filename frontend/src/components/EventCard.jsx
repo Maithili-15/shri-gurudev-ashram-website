@@ -19,12 +19,10 @@ const EventCard = ({ event }) => {
       <div className="p-6">
         <h3 className="text-xl font-bold text-amber-900 mb-2">{event.title}</h3>
         <div className="space-y-2 text-sm text-gray-600 mb-4">
-          <p className="flex items-center">
-            <span className="mr-2">📅</span>
+          <p className="flex itemscenter">
             {formatDateTime(event.date, event.time)}
           </p>
           <p className="flex items-center">
-            <span className="mr-2">📍</span>
             {event.location}
           </p>
         </div>

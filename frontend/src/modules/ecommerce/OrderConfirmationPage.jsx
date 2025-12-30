@@ -34,7 +34,7 @@ const OrderConfirmationPage = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h1 className="text-4xl font-bold text-amber-900 mb-2">Order Confirmed! 🎉</h1>
+          <h1 className="text-4xl font-bold text-amber-900 mb-2">Order Confirmed!</h1>
           <p className="text-gray-600">Thank you for your purchase</p>
         </div>
 
@@ -104,7 +104,7 @@ const OrderConfirmationPage = () => {
 
         <div className="flex flex-col sm:flex-row gap-4">
           <PrimaryButton onClick={handleDownloadReceipt} className="flex-1">
-            📥 Download Receipt
+            Download Receipt
           </PrimaryButton>
           <Link to={`/track-order/${orderData.orderId}`} className="flex-1">
             <PrimaryButton variant="outline" className="w-full">

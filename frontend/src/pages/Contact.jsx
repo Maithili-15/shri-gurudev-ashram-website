@@ -177,7 +177,6 @@ const Contact = () => {
                   <h3 className="text-xl font-bold text-amber-900 mb-4">Contact Information</h3>
                   <div className="space-y-4">
                     <div className="flex items-start space-x-3">
-                      <span className="text-2xl">📍</span>
                       <div>
                         <p className="font-semibold text-gray-900">Address</p>
                         <p className="text-gray-700">
@@ -187,7 +186,6 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <span className="text-2xl">📞</span>
                       <div>
                         <p className="font-semibold text-gray-900">Phone</p>
                         <p className="text-gray-700">9158740007</p>
@@ -195,7 +193,6 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <span className="text-2xl">📧</span>
                       <div>
                         <p className="font-semibold text-gray-900">Email</p>
                         <p className="text-gray-700"><a href="mailto:info@shrigurudevashram.org" className="text-amber-600 hover:underline">info@shrigurudevashram.org</a></p>

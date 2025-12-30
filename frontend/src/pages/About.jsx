@@ -93,10 +93,10 @@ const About = () => {
           <SectionHeading title="Our Values" center={true} />
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: 'Devotion', icon: '🕉️', desc: 'Deep love and dedication to the divine' },
-              { title: 'Service', icon: '🙏', desc: 'Selfless service to humanity' },
-              { title: 'Compassion', icon: '❤️', desc: 'Love and care for all beings' },
-              { title: 'Integrity', icon: '✨', desc: 'Honesty and ethical conduct' }
+              { title: 'Devotion', icon: '', desc: 'Deep love and dedication to the divine' },
+              { title: 'Service', icon: '', desc: 'Selfless service to humanity' },
+              { title: 'Compassion', icon: '', desc: 'Love and care for all beings' },
+              { title: 'Integrity', icon: '', desc: 'Honesty and ethical conduct' }
             ].map((value, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md text-center">
                 <div className="text-4xl mb-3">{value.icon}</div>

@@ -3,62 +3,62 @@
 export const announcements = [
   {
     id: 1,
-    text: "🎉 Special Satsang Program on 15th March - All devotees welcome!",
+    text: "Special Satsang Program on 15th March - All devotees welcome!",
     type: "event"
   },
   {
     id: 2,
-    text: "🙏 Annadan Seva: Feed 1000 families this month - Support our cause",
+    text: "Annadan Seva: Feed 1000 families this month - Support our cause",
     type: "donation"
   },
   {
     id: 3,
-    text: "📚 New spiritual books now available in our shop",
+    text: "New spiritual books now available in our shop",
     type: "shop"
   }
 ];
 
 export const activities = [
-  {
+    {
     id: 1,
     title: "Daily Satsang",
     description: "Morning and evening spiritual discourses and bhajans",
-    icon: "🕉️",
+    icon: "",
     category: "spiritual"
   },
   {
     id: 2,
     title: "Annadan Seva",
     description: "Feeding the needy and underprivileged families",
-    icon: "🍽️",
+    icon: "",
     category: "social"
   },
   {
     id: 3,
     title: "Education Programs",
     description: "Free education and skill development for children",
-    icon: "📚",
+    icon: "",
     category: "social"
   },
   {
     id: 4,
     title: "Medical Camps",
     description: "Free health checkups and medical assistance",
-    icon: "🏥",
+    icon: "",
     category: "charitable"
   },
   {
     id: 5,
     title: "Yoga & Meditation",
     description: "Regular yoga classes and meditation sessions",
-    icon: "🧘",
+    icon: "",
     category: "spiritual"
   },
   {
     id: 6,
     title: "Environmental Initiatives",
     description: "Tree plantation and environmental awareness programs",
-    icon: "🌳",
+    icon: "",
     category: "charitable"
   }
 ];
@@ -189,11 +189,11 @@ export const testimonials = [
 ];
 
 export const donationHeads = [
-  { id: 1, name: "Annadan Seva", description: "Feed the needy", icon: "🍽️" },
-  { id: 2, name: "Education", description: "Support children's education", icon: "📚" },
-  { id: 3, name: "Medical Aid", description: "Healthcare for the underprivileged", icon: "🏥" },
-  { id: 4, name: "Ashram Development", description: "Infrastructure and maintenance", icon: "🏛️" },
-  { id: 5, name: "General Seva", description: "General welfare activities", icon: "🙏" }
+  { id: 1, name: "Annadan Seva", description: "Feed the needy", icon: "" },
+  { id: 2, name: "Education", description: "Support children's education", icon: "" },
+  { id: 3, name: "Medical Aid", description: "Healthcare for the underprivileged", icon: "" },
+  { id: 4, name: "Ashram Development", description: "Infrastructure and maintenance", icon: "" },
+  { id: 5, name: "General Seva", description: "General welfare activities", icon: "" }
 ];
 
 export const presetAmounts = [100, 500, 1000, 2500, 5000, 10000];

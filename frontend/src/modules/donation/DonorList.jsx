@@ -20,7 +20,7 @@ const DonorList = ({ donors }) => {
 
   return (
     <div className="bg-amber-50 rounded-lg p-6 mb-12">
-      <h3 className="text-2xl font-bold text-amber-900 mb-4">Recent Donations 🙏</h3>
+      <h3 className="text-2xl font-bold text-amber-900 mb-4">Recent Donations</h3>
       <div className="space-y-2 max-h-64 overflow-y-auto">
         {displayDonors.map((donor, index) => (
           <div

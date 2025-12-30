@@ -113,10 +113,6 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-300 text-center text-sm text-gray-600">
           <p>&copy; {currentYear} Shri Gurudev Ashram, Palaskhed Sapkal. All rights reserved.</p>
-          <p className="mt-2">Made with 🙏 for the service of humanity</p>
-          <Link to="/sitemap" className="text-amber-600 hover:text-amber-700 underline mt-2 inline-block">
-            SITEMAP
-          </Link>
         </div>
       </div>
     </footer>
