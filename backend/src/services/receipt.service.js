@@ -1,6 +1,7 @@
 const PDFDocument = require("pdfkit");
 const fs = require("fs");
 const path = require("path");
+const maskId = require("../utils/maskId");
 
 exports.generateDonationReceipt = (donation, user) => {
   return new Promise((resolve) => {
@@ -19,23 +20,24 @@ exports.generateDonationReceipt = (donation, user) => {
     doc.text(`Date: ${new Date(donation.createdAt).toLocaleDateString()}`);
     doc.moveDown();
 
-    doc.text(`Donor Name: ${user.fullname || "Donor"}`);
-    doc.text(`Mobile: ${user.mobile}`);
-    doc.text(`Email: ${user.email || "-"}`);
+    doc.text(`Donor Name: ${user?.fullName || "Donor"}`);
+    doc.text(`Mobile: ${user?.mobile || "-"}`);
+    doc.text(`Email: ${user?.email || "-"}`);
+    doc.text(`Date of Birth: ${donation.donorDob.toDateString()}`);
+    doc.text(`${donation.donorIdType}: ${maskId(donation.donorIdNumber)}`);
     doc.moveDown();
 
     doc.text(`Donation Head: ${donation.donationHead}`);
-    doc.text(`Amount: ${donation.amount}`);
+    doc.text(`Amount: ₹${donation.amount}`);
     doc.text(`Payment ID: ${donation.paymentId}`);
     doc.text(`Status: SUCCESS`);
     doc.moveDown();
 
-    doc.text(`Thank you for your generous contribution.`, {
+    doc.text("Thank you for your generous contribution.", {
       align: "center",
     });
 
     doc.end();
-
     resolve(filePath);
   });
 };
