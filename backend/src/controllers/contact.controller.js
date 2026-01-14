@@ -1,4 +1,4 @@
-const { sendContactEmail } = require("../services/mail.service");
+const { sendContactEmail } = require("../services/email.service");
 
 exports.sendContactMessage = async (req, res) => {
   try {
