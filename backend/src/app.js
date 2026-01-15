@@ -15,7 +15,9 @@ app.use("/api/test", require("./routes/test.routes"));
 app.use("/api/donations", require("./routes/donation.routes"));
 app.use("/api/webhooks", require("./routes/webhook.routes"));
 app.use("/api/contact", require("./routes/contact.routes"));
+app.use("/api/user", require("./routes/user.routes"));
+app.use("/api/admin/website", require("./routes/admin.website.routes"));
+app.use("/api/admin/system", require("./routes/admin.system.routes"));
 // app.use("/api/products", require("./routes/product.routes"));
 // app.use("/api/orders", require("./routes/order.routes"));
-
 module.exports = app;

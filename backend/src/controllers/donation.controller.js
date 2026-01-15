@@ -101,3 +101,16 @@ exports.createDonationOrder = async (req, res) => {
     res.status(500).json({ message: "Failed to create Razorpay order" });
   }
 };
+
+exports.getUserDonations = async (req, res) => {
+  try {
+    const donations = await Donation.find({ user: req.user.id }).sort({
+      createdAt: -1,
+    });
+
+    res.json(donations);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Failed to fetch donations" });
+  }
+};

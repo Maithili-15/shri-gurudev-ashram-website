@@ -22,6 +22,7 @@ exports.handleRazorpayWebhook = async (req, res) => {
 
     const event = JSON.parse(req.body.toString());
     const eventType = event.event;
+    console.log(event);
 
     console.log("Webhook received:", eventType);
 
